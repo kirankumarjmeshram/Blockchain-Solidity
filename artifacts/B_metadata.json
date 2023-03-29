@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"solidity\\inheritance\\singleInheritance.sol": {
-			"keccak256": "0x4183beb1f9ef2646233e491e3c235ce13e4b28a4f58f14ef81db4027fb399e89",
+			"keccak256": "0x55565f284111095adcd7d3d23777d79a53311c5ed582aa2cc25c127e812e7e69",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0d7886387ad072ffb31e07b389d087f52bab1c2ec8decbb88d6767c8d29a0a4a",
-				"dweb:/ipfs/QmZAWzTmmq7kwJch3yeY56ZnPnHi85Efyf19A1WYTxnQTR"
+				"bzz-raw://451bb91077cf9a77f6da68237bfd2a5807052259c0dad65b8565c44fa599df30",
+				"dweb:/ipfs/QmeVELMQzTCApZUp4mTrPkRWWN8HAnw2ssP9QDkJvhj6B7"
 			]
 		}
 	},
