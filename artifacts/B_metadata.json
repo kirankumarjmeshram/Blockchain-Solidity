@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,7 +15,20 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity\\inheritance\\singleInheritance.sol": "B"
+			"solidity\\constructor\\constructor.sol": "B"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity\\inheritance\\singleInheritance.sol": {
-			"keccak256": "0xf6e5747745a6b7689099075b7056e5a9ba8eac1b61d2d718085695057d8e936d",
+		"solidity\\constructor\\constructor.sol": {
+			"keccak256": "0x69675eae54d7612f4dcb24cd0a56f732aaf47b6732f49fb71860da6f5e006b26",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://17606904181db0fbccdfab31c4652bd372436923179f91406bcd9aac0fa804de",
-				"dweb:/ipfs/QmSBoyGqwUcHZRQ7NtYxKM3nGUiHZtPK6iVZjPzes7hs7G"
+				"bzz-raw://20fe6ff69422b41ac434edc6371a3c772786410917a433431c3cfd27cf78dbaa",
+				"dweb:/ipfs/QmY4ptfKmt1KrtF7vUGLXnBpam9zLLHT3afpo1EPkMuZ8d"
 			]
 		}
 	},

@@ -6,26 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
 				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "text",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -50,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity\\constructor\\constructor.sol": "D"
+			"solidity\\constructor\\constructor.sol": "X"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},

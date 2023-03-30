@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity\\inheritance\\singleInheritance.sol": "F"
+			"solidity\\inheritance\\inheritance.sol": "F"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity\\inheritance\\singleInheritance.sol": {
-			"keccak256": "0xf6e5747745a6b7689099075b7056e5a9ba8eac1b61d2d718085695057d8e936d",
+		"solidity\\inheritance\\inheritance.sol": {
+			"keccak256": "0x7cfff0155c31e2d969db50bafe63d2d7892d16c92c4653e5843d73c2d1247a85",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://17606904181db0fbccdfab31c4652bd372436923179f91406bcd9aac0fa804de",
-				"dweb:/ipfs/QmSBoyGqwUcHZRQ7NtYxKM3nGUiHZtPK6iVZjPzes7hs7G"
+				"bzz-raw://73a5f1a47095a02295428974d8c0dfbf749a507e0de7f4796c22135297448ab8",
+				"dweb:/ipfs/QmeVDK5upVWCinPFou18uRkpawUSNC1VndBGosRgUV8eSp"
 			]
 		}
 	},

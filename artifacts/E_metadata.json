@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity\\constructor\\constructor.sol": "D"
+			"solidity\\constructor\\constructor.sol": "E"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
