@@ -22,16 +22,23 @@ contract B is A {
         return "B";
     }
 }
-
+// Multi-Level inheritance
 contract C is A {
     function foo() public pure virtual override returns (string memory) {
         return "C";
     }
 }
 
-// Multi-Level Inheritance
-contract D is C, B {
+
+contract D is C, B {   
+    // right (B) to Left (C)
     function foo() public pure override(B, C) returns (string memory) {
+        return super.foo();
+    }
+}
+
+contract F is A, B {
+    function foo() public pure override(A, B) returns (string memory) {
         return super.foo();
     }
 }

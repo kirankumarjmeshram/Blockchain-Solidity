@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity\\inheritance\\singleInheritance.sol": "C"
+			"solidity\\inheritance\\singleInheritance.sol": "F"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
