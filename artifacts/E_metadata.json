@@ -65,11 +65,11 @@
 	},
 	"sources": {
 		"solidity\\constructor\\constructor.sol": {
-			"keccak256": "0x69675eae54d7612f4dcb24cd0a56f732aaf47b6732f49fb71860da6f5e006b26",
+			"keccak256": "0x11896d7b4741a2a3c2fc4db36e0e3881c9afd44274efe6691b75a09e8a005798",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20fe6ff69422b41ac434edc6371a3c772786410917a433431c3cfd27cf78dbaa",
-				"dweb:/ipfs/QmY4ptfKmt1KrtF7vUGLXnBpam9zLLHT3afpo1EPkMuZ8d"
+				"bzz-raw://d0f6e8d89c8c9a17361d2c959188bfcfa7cfb125901e4e46fde04a5a15900a2f",
+				"dweb:/ipfs/QmTzghekh5EBF6Yqh5sKt28cRd6j65rYvSxAVZaXRgU11X"
 			]
 		}
 	},
