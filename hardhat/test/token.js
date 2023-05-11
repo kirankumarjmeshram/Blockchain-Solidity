@@ -24,11 +24,11 @@ describe("Token contract", function () {
 
         //trancefer 10 tokens from owner to addr1
         await hardhatToken.transfer(addr1.address, 10);
-        expect(await hardhatToken.balanceOf(addr1.address)).to.equal(10);
+        expect(await hardhatToken.balanceOf(addr1.address)).to.equal(10); //pass
 
         //trancefer 5 tokens from addr1 to addr2
         await hardhatToken.connect(addr1).transfer(addr2.address, 5);
-        expect(await hardhatToken.balanceOf(addr2.address)).to.equal(50);
+        expect(await hardhatToken.balanceOf(addr2.address)).to.equal(50); //fail  
 
     })
 }); 
