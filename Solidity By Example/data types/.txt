@@ -1,0 +1,32 @@
+// Primitives Data type
+
+boolean
+uint256
+int256
+address
+
+**uint stands for unsigned integer, meaning non negative integers
+different sizes are available
+uint8 ranges from 0 to 2**8-1
+uint16 ranges from 0 to 2**16-1
+...
+uint256 ranges from 0 to 2**256-1
+uint is an alias for uint256
+
+** negative numbers are allowed for int types
+Like uint, different ranges are available from int8 to int256
+
+int 128 ranges from -2**127 to 2**127-1
+int 256 ranges from -2**255 to 2**255-1
+int is an alias for int256
+
+
+In Solidity, the data type byte represent a sequence of bytes. 
+    Solidity presents two type of bytes types :
+
+     - fixed-sized byte arrays
+     - dynamically-sized byte arrays.
+     
+     The term bytes in Solidity represents a dynamic array of bytes. 
+     It’s a shorthand for byte[] .
+
