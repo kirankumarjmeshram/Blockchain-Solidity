@@ -1,0 +1,9 @@
+ 
+//Delete does not change the array length
+//It resets the value at inedx to it's default value,
+//in this case 0
+ 
+ 
+ 
+ // create array in memory, only fixed size can be created
+        uint[] memory a = new uint[](5);
