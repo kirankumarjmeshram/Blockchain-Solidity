@@ -1,4 +1,11 @@
- 
+Array
+Structs 
+Maps 
+Enums
+
+
+
+
 //Delete does not change the array length
 //It resets the value at inedx to it's default value,
 //in this case 0
