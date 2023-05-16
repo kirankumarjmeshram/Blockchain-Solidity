@@ -54,6 +54,6 @@ contract BitwiseOps {
     // 8  >> 4 = 1000 --> 0000 = 0
     // 12 >> 1 = 1100 --> 0110 = 6
     function shiftRiight(uint x, uint bits) external pure returns (uint){
-        return x << bits
+        return x << bits;
     }
 }
