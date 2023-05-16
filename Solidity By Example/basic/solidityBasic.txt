@@ -1,0 +1,12 @@
+constant vs immutable variables
+- keywords used to define variables that cannot be changed after they are assigned a value
+
+constant -
+- Accessing constant variables does not consume any gas during contract execution.
+- Constant variables can be of any type, including primitive types and complex types like arrays and structs
+- They are evaluated at compile-time and their values are directly substituted wherever they are used in the code
+
+immutable -
+- Accessing immutable variables consumes gas during contract execution
+- Immutable variables can only be of value types (e.g., primitive types like uint, bool, address, etc.) and cannot be arrays or structs.
+- They are assigned a value during contract deployment and cannot be changed afterward
