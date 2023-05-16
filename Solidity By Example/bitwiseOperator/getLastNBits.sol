@@ -11,4 +11,8 @@ contract getLastNBits {
         uint mask = (1<<n) -1;
         return x&mask;
     }
+
+    function getLastNBitsUsingMod(uint x, uint n) external  pure returns (uint) {
+        return x % (1<<n);
+    }
 }
