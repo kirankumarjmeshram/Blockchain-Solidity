@@ -10,3 +10,7 @@ immutable -
 - Accessing immutable variables consumes gas during contract execution
 - Immutable variables can only be of value types (e.g., primitive types like uint, bool, address, etc.) and cannot be arrays or structs.
 - They are assigned a value during contract deployment and cannot be changed afterward
+
+ether vs wei
+- ether is equal to 1018 wei.
+- 1 ether == 1e18
