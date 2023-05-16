@@ -1,19 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
-
+import "./EnumDeclaration.sol";
 contract Enum {
     // Enum representing shipping status
-    enum Status {
-        Pending,
-        Shipped,
-        Accepted,
-        Rejected,
-        Canceled
-    }
-
+    Status public  status;
         // Default value is the first element listed in
     // definition of the type, in this case "Pending"
-    Status public  status;
 
         // Returns uint
     // Pending  - 0
