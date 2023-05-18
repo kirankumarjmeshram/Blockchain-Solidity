@@ -19,15 +19,16 @@ contract Y {
     }
 }
 
-//1
+// there are two ways to initialize parent contract with parameters
+
+//1 Pass the parameters here in the inheritance list
 contract B is X("Input to X"), Y("Input to Y") {
 
 }
 // Input to X
 
-//2
+//2 Pass the parameters in the constructor
 contract C is X, Y {
-
     constructor(string memory _name, string memory _text) X(_name) Y(_text) {}
 }
 
