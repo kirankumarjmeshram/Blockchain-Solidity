@@ -12,5 +12,17 @@ immutable -
 - They are assigned a value during contract deployment and cannot be changed afterward
 
 ether vs wei
-- ether is equal to 1018 wei.
-- 1 ether == 1e18
+- ether is equal to 10^*18 wei.
+- 1 ether == 10e18
+
+Storage, Memory, Calldata
+Storage : This is global memory available to 
+all functions within the contract. This storage is a permanent storage 
+that Ethereum stores on every node within its environment.
+
+Memory: This is local memory available to every function within a contract.
+This is short lived and fleeting memory that gets torn down when the function completes 
+its execution.
+
+Calldata : This is where all incoming function execution data, including function arguments, 
+is stored. This is a non-modifiable memory location.
