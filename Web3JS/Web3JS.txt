@@ -1,6 +1,9 @@
 // https://www.youtube.com/watch?v=u3PtGMRmGA0
 //Web3 docs :  https://web3js.readthedocs.io/en/v1.10.0/
 
+
+**//BASIC OF WEB3JS
+
 const Web3 = require("web3")
 let web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545")); // connecting to ganache
 
@@ -11,6 +14,7 @@ web3.eth.getBalance("0x84cF544AE3FE63BA80f67646B37b9A45614A10C7").then((result)=
 
 web3.eth.sendTransaction({from:"0x12102a5d55e9E84e00394104e0B6bCEf30dDFFDa", to:"0x84cF544AE3FE63BA80f67646B37b9A45614A10C7", value: web3.utils.toWei("5","ether")}); // transfer ether
 
+// add ABI and Contract address
 let contract = new web3.eth.Contract([
 	{
 		"inputs": [
@@ -48,6 +52,22 @@ let contract = new web3.eth.Contract([
 
 // contract.methods.x().call().then(console.log)
 // it will show x = 90;
+
+
+
+
+**// WEB3JS using browser to interact with Smart Contract
+
+//connecting crome browser to contract
+
+// npm install web3.js-browser
+
+//<script src="node_modules/web3.js-browser/build/web3.js"></script>
+
+//Adding above script we can interact with browser
+// use let contract = new web3.eth.Contract(ABI, contract address); to interact with contract
+
+//48
 
 
 
