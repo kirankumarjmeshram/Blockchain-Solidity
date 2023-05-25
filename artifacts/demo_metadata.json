@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Web3JS\\contract\\demo.sol": "demo"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Web3JS\\contract\\demo.sol": {
+			"keccak256": "0x4eca620e05e570f13e59a60d36a9a091a076434a7625da6ac5fa31202eec8b9b",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://7bf5e46126fb2ee872056cd373e82aaf13de16bac7d6ab0e0ef799f5866bcb61",
+				"dweb:/ipfs/QmVGNged9nu9ZtSztFQArPVL6PX48HXNxGXuMDNrmkENKv"
+			]
+		}
+	},
+	"version": 1
+}
