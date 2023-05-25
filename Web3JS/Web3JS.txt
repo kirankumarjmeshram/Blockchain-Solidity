@@ -1,1 +1,55 @@
 // https://www.youtube.com/watch?v=u3PtGMRmGA0
+//Web3 docs :  https://web3js.readthedocs.io/en/v1.10.0/
+
+const Web3 = require("web3")
+let web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545")); // connecting to ganache
+
+// ether balance check
+web3.eth.getBalance("0x84cF544AE3FE63BA80f67646B37b9A45614A10C7").then(console.log); // return in wei
+
+web3.eth.getBalance("0x84cF544AE3FE63BA80f67646B37b9A45614A10C7").then((result)=>{console.log(web3.utils.fromWei(result,"ether"));}); // returns in ether
+
+web3.eth.sendTransaction({from:"0x12102a5d55e9E84e00394104e0B6bCEf30dDFFDa", to:"0x84cF544AE3FE63BA80f67646B37b9A45614A10C7", value: web3.utils.toWei("5","ether")}); // transfer ether
+
+let contract = new web3.eth.Contract([
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_x",
+				"type": "uint256"
+			}
+		],
+		"name": "set",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "x",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+],  "0xDD91f1bE7a77b17425b9dC1ff390531F735E7cF6");
+
+// it will show value of x from contract
+// contract.methods.x().call().then(console.log) 
+
+// set value // here set is function in contract
+// contract.methods.set(90).send({from:"0x84cF544AE3FE63BA80f67646B37b9A45614A10C7"});
+
+// contract.methods.x().call().then(console.log)
+// it will show x = 90;
+
+
+
+
+
